@@ -1,0 +1,331 @@
+{
+  "categories": {
+      "common": [
+    {
+      "id": "no_freekill",
+      "title": "Interdiction de Freekill",
+      "desc": "Il est interdit de Freekill - Tuer une personne sans raison valable."
+    },
+    {
+      "id": "mic_required",
+      "title": "Un micro fonctionnel est obligatoire pour jouer",
+      "desc": "Sans micro, vous pouvez enfreindre énormément de règles."
+    },
+    {
+      "id": "no_metagaming",
+      "title": "Il est interdit de faire du Métagaming",
+      "desc": "En RP, connaître des choses que votre personnage n'est pas censé savoir."
+    },
+    {
+      "id": "no_powergaming",
+      "title": "Il est interdit de faire du Powergaming",
+      "desc": "Effectuer une action irréalisable dans la vraie vie en RP (Sauter sur le confinement de 106 ou sur les ascenseurs de la Warhead, franchir les barrières en sautant par-dessus ou se mettre à marcher dessus etc...)."
+    },
+    {
+      "id": "no_painrp",
+      "title": "Il est interdit de faire du NoPain",
+      "desc": "En tant qu'humain, ne pas avoir mal et ne pas émettre des bruits de douleur quand vous vous prenez des dégâts, et sprinter quand vous avez moins de 20 PV. Le PainRP est obligatoire pour les classes non-militaires et militaires."
+    },
+    {
+      "id": "no_fearrp",
+      "title": "Il est interdit de faire du NoFear ",
+      "desc": "Ne pas avoir peur des armes ou des dangers en tant que classe non-militaire. Exemple : Ignorer une arme braquée sur soi ou se comporter avec sang froid face à des individus armés. Sortir de l'ascenseur au moment où il se ferme quand des personnes armées s'y trouvent, est également considéré comme du NoFear."
+    },
+    {
+      "id": "no_troll",
+      "title": "Il est interdit de Troll",
+      "desc": "Exemple : Faire du Freeshoot, c'est à dire tirer volontairement sur des joueurs sans raisons valables ; Fermer les portes au nez des autres sans raisons ; Faire du Earrape, crier dans son micro ; Dessiner sur les murs en utilisant ses armes ; Faire des roulettes russe ; Jouer à snake ; Faire du brainrot vocal ou dans l'intercom ; Lancer des grenades sans raisons ; etc..."
+    },
+    {
+      "id": "no_soundboard",
+      "title": "Il est interdit de Soundboard/Modificateur de voix",
+      "desc": "Vous n'avez pas le droit, peu importe la raison, de jouer un son autre que votre voix dans votre microphone, ou de modifier votre voix à l'aide de logiciels."
+    },
+    {
+      "id": "respect_player",
+      "title": "Respectez les autres joueurs",
+      "desc": "Que ce soit en RP ou en HRP (comme en mode spectateur), il est impératif d’adopter un comportement sérieux et respectueux envers tous afin de maintenir une bonne ambiance sur le serveur.Toutes insultes excessives ou ciblées envers des joueurs sont interdites, que ce soit en RP ou en HRP. Toute forme de discrimination ou référence, même détournée ou sous forme de blague, à des scandales historiques ou d’actualité est strictement interdite."
+    },
+    {
+      "id": "no_hrp",
+      "title": "En RP, il est strictement interdit de faire du HRP vocal",
+      "desc": "Vous ne devez pas parler, discuter ou faire des références en dehors du RP quand vous jouez votre personnage, et vous ne pouvez pas signaler quelqu'un à l'oral qui enfreint les règles pendant le RP, vous faites un report."
+    },
+    {
+      "id": "minimum_rp",
+      "title": "Une partie est RolePlay à partir de 7 joueurs.",
+      "desc": "Une partie ayant commencée HRP devient RP une fois que 7 joueurs sont sur le serveur."
+    },
+    {
+      "id": "no_camping",
+      "title": "Interdiction de Camper",
+      "desc": "Il est interdit de camper à un même endroit plus de 5 minutes."
+    },
+    {
+      "id": "no_bunnyhop",
+      "title": "Il est interdit de Bunny Hop (Sauter comme un lapin)",
+      "desc": "Faire plus de 3 sauts consécutifs ou rapides."
+    },
+    {
+      "id": "no_usebug",
+      "title": "Il est interdit de Use-Bug",
+      "desc": "Vous n'avez pas le droit d'utiliser une faille en jeu, comme un bug de plugin. Le comportement à adopter est de le rapporter à l'équipe de développement via le discord."
+    },
+    {
+      "id": "sommation",
+      "title": "Il est obligatoire de faire 3 sommations avant de tuer une personne",
+      "desc": "sauf exceptions précisées dans les Règles générales."
+    },
+    {
+      "id": "no_skip_role",
+      "title": "Interdiction de se déconnecter pour éviter de jouer un rôle",
+      "desc": "Il est interdit d'éviter un rôle en vous déconnectant, puis en vous reconnectant, ou en vous suicidant volontairement."
+    },
+    {
+      "id": "no_talk_during_lobby_lock",
+      "title": "Interdiction de parler durant un lobby lock",
+      "desc": "Il est interdit de parler durant un lobby lock, sauf sous autorisation d'un staff."
+    },
+    {
+      "id": "no_erp",
+      "title": "Il est strictement interdit de pratiquer le ERP (Erotic RolePlay)",
+      "desc": "Cela inclut tout langage, geste ou comportement à caractère sexuel, même sous forme de blague ou de référence implicite. "
+    },
+    {
+      "id": "no_weird_voice",
+      "title": "Il est interdit d'imiter des accents, ou de faire des voix exagérés, bizarres ou moqueuses",
+      "desc": "Parler autrement qu'avec votre voix normale sera considéré comme du troll ou du manque de sérieux"
+    },
+    {
+      "id": "no_racism",
+      "title": "Il est strictement interdit de faire du RP à caractère ethnique, religieux ou nationaliste",
+      "desc": "Vous ne devez en aucun cas revendiquer, même en jeu, une appartenance à une patrie, une religion, une culture ou une idéologie réelle, afin de garantir un environnement de jeu neutre, respectueux et éloigné de toute controverse. "
+    },
+    {
+      "id": "new_spawn_no_spawnkill",
+      "title": "Il est interdit de tuer quelqu'un qui vient de réapparaître suite à une extraction",
+      "desc": "Les réapparitions suite à une extraction sont considérées comme un respawn et ne doivent en aucun cas faire l’objet de spawnkill. "
+    }
+  ],
+    "human":[
+        {
+        "id": "no_spawnkill",
+        "title": "Il est interdit de tuer les respawns",
+        "desc": "Lors d'un respawn (réapparition d'une équipe F.I.M ou Chaos), il est strictement interdit de tuer les membres du respawn dans un délai de 2 minutes ou lors du briefing, cela est sanctionnable de spawnkill (sauf les membres qui ont ouvert le feu sur vous, ou qui ont soit traversé la Gate-A, soit la Gate-B, soit la Gate en surface qui sépare la zone d'apparition des F.I.M/Chaos)."
+        },
+        {
+        "id": "no_grenade_in_spawn",
+        "title": "Il est interdit d'utiliser des grenades dans les zones de respawn",
+        "desc": "Il ne doit pas avoir de grenade ou C4 ou SCP à l'intérieur de la Gate assignée à chaque camp dans le but de tuer un respawn (Gate-A pour les Chaos, Gate-B pour les F.I.M)."
+        },
+        {
+        "id": "new_character_respawn",
+        "title": "Lors d'un respawn ou d'une extraction, vous incarnez un nouveau personnage.",
+        "desc": "Lors d'un respawn ou d'une extraction, vous incarnez un nouveau personnage, et vous ne conservez aucun souvenir de votre précédent (sauf quand vous êtes réanimé via la commande '.revive').,Cette règle est valable pour un Chaos qui s'extrait pour voler des objets SCP par exemple. Ils incarnent un nouveau personnage après une réapparition et ne doivent donc pas agir en fonction de leur précédent."
+        },
+        {
+        "id": "handcuff",
+        "title": "Vous devez démenotter les joueurs dans leur dos.",
+        "desc": "Le menottage, tout comme le démenottage, doit obligatoirement se faire dans le dos d'une personne." 
+        },
+        {
+        "id": "no_meta_traitor",
+        "title": "Personne n’est censé savoir qu'il y a un garde traître, ou même prétendre d'en être un.",
+        "desc": "De ce fait, il est interdit de fouiller, de suspecter un garde d'être un traître sans raison valable ou preuve concrète. Agir comme si vous saviez qu'il y a des traîtres sera considéré comme du Métagaming.  " 
+        },
+        {
+        "id": "no_usebug_3114",
+        "title": "SCP 3114 n'est pas reconnaissable à la voix ou par bug d'affichage",
+        "desc": "SCP-3114 n'est pas reconnaissable à la voix ou par bug d'affichage (voir son apparence à travers son déguisement). Cependant, si vous suspectez quelqu'un d'être SCP-3114, vous avez le droit de lui demander d'utiliser des armes."  
+        },
+        {
+        "id": "no_useless_surcharge",
+        "title": "Il est interdit de lancer une surcharge si SCP-079 n’est pas confirmé comme déconfiné",
+        "desc": "sauf s’il ne reste que lui et qu’il bloque la partie."
+        },
+        {
+        "id": "no_gaz_in_confinement",
+        "title": "Le gaz de 939 ne vous affecte pas si il se trouve à L'INTERIEUR de son confinement.",
+        "desc": "En RP, Si SCP-939 déploie son gaz amnésique à L'INTÉRIEUR de son confinement, son gaz aura aucun effet."
+        },
+         {
+        "id": "amnesique_gaz",
+        "title": "Le gaz de 939 vous fait oubliez entièrement sa présence.",
+        "desc": "Si en tant qu'humain, vous êtes affecté par le gaz amnésique (écran assombri, chuchotements, SCP-939 invisible), vous oubliez totalement la présence du SCP-939 et vous devez agir comme s'il n'existait pas. De ce fait, faire preuve de prudence pour aucune raison valable et uniquement dans le but d'éviter SCP-939 (marcher lentement ou rester complètement immobile) quand vous êtes sous l'effet du gaz amnésique sera considéré comme du FailRp."
+        },
+        {
+        "id": "respect_hostage",
+        "title": "Toute prise d’otage doit être respectée et obligatoirement déclarée par les preneurs d’otages.",
+        "desc": "Lors d’une prise d’otage, si vous êtes négociateur, vous devez prioriser la survie de l’otage quel que soit son rang (sauf si l’otage est une Classe-D ou un Concierge ), et tenter de le récupérer. Si vous êtes preneur d'otage, et que vous détenez toujours votre otage en fin de PO, vous devez alors l'extraire comme prisonnier afin d’éviter un freekill."
+        },        
+        {
+        "id": "prioritize_hostage_survival",
+        "title": "Si vous êtes une classe militaire prise en otage, vous devez obligatoirement prioriser votre survie et respecter la prise d’otage tant qu'elle est toujours en cours.",
+        "desc": "De ce fait, le NoFear ne s'applique plus à vous pendant toute la durée de la PO, et toute action visant à nuire à celle-ci en tant qu'otage, peu importe votre rôle, est strictement interdite."
+        },
+        {
+        "id": "no_simulating_hostage",
+        "title": "Il est interdit de simuler une prise d'otage, c'est à dire prétendre avoir des otages quand ce n'est pas le cas.",
+        "desc": "Cependant SCP-3114 est autorisé à être pris en otage, jusqu'à qu'il n'ait plus sa peau."
+        },
+        {
+        "id": "breaking_hostage",
+        "title": "Seules les classes militaires parmi les preneurs d'otages peuvent casser une prise d'otage et même utiliser l'otage comme bouclier humain si la PO n'aboutit à rien ou prend trop de temps.",
+        "desc": "Les classes non militaires ont pour obligation de ne pas casser une PO par FearRP."
+        },
+        {
+        "id": "hostage_declare_participants",
+        "title": "Les membres participants à une prise d'otage (négociateurs et preneurs d'otage) ont l'obligation de respecter la PO tant que l'otage est proche ou dans la même zone que eux, et se déclarer comme participants.",
+        "desc": "Ils ne doivent pas tirer sur d'autres participants ni sur les non-participants. Si l'otage meurt, n'est plus à proximité ou n'est pas dans la même zone que les participants, ces derniers ne sont plus tenus de respecter la prise d’otage."
+        },
+        {
+        "id": "forced_participation_hostage",
+        "title": "Les membres ne participant pas à une PO ne sont pas obligé d'y intervenir sauf s'ils sont les premiers arrivés sur les lieu.",
+        "desc": "Cependant, ils doivent respecter les membres participant à la PO. En revanche, ils restent libre d'ouvrire le feu sur les membres ne participant pas à la PO, ou qui ne sont pas à proximité ou dans la même zone de l'otage. "
+        },
+        {
+        "id": "scp_object_hostage",
+        "title": "Il est interdit de rançonner plus d'un objet SCP, ou de choisir un objet SCP en particulier pour un otage",
+        "desc": "afin d'éviter de ralentir le jeu, et de faire durer inutilement la PO." 
+        },
+        {
+        "id": "prisoner_hostage",
+        "title": "Toute personne menottée est considérée comme un prisonnier tant qu’elle n’est pas déclarée comme otage.",
+        "desc": "Par conséquent, vous pouvez ouvrir le feu sur les individus détenant des prisonniers et inversement. Vous êtes également autoriser à utiliser les prisonniers que vous détenez comme boucliers humains. " 
+        },
+        {
+        "id": "sommation_no_military",
+        "title": "Vous devez obligatoirement faire des sommations avant de tuer :",
+        "desc": "les personnels non militaires ou  otages/prisonniers, s'ils n'écoutent pas vos ordres."
+        },
+        {
+        "id": "kill_hostage",
+        "title": "Si vous êtes preneur d'otage, vous avez le droit de tuer vos otages si les négociateurs ne respectent pas la PO",
+        "desc": "sauf si vous êtes une classe non-militaire."
+        },
+        {
+        "id": "no_freekill_enemy",
+        "title": "En tant que personnel militaire, vous ne devez pas tuer les classes non militaires d'un camp opposé qui ne montrent aucune hostilité",
+        "desc": "vous devez les appréhender en priorité."
+        },
+        {
+        "id": "freekill_hostile_enemy",
+        "title": "Cependant vous pouvez ouvrir le feu directement sur les personnes qui sont hostiles ou qui ont montré de l'hostilité.",
+        "desc": ""
+        },
+        {
+        "id": "non_military_enemy_kill",
+        "title": "Les personnels non-militaires sont considérés comme hostiles s’ils sont visiblement armés.",
+        "desc": "s’ils tentent de vous tuer, s’ils tentent clairement de vous fuir, de se cacher de vous, ou s’ils vous manquent de respect (moqueries, insultes)."
+        },
+                {
+        "id": "military_enemy_kill",
+        "title": "Les personnels militaires sont systématiquement considérés comme hostiles",
+        "desc": "armés ou non, sauf s'ils sont menottés."
+        }
+
+    ],
+    
+    "scp": [
+       {
+        "id": "no_scp_wait_respawn",
+        "title": "Il est interdit d'attendre les respawns",
+        "desc": "Les SCP n'ont pas à attendre les membres d'un respawn afin de tendre un piège."
+        },
+        {
+        "id": "5_minute_contain",
+        "title": "Vous devez vous reconfiner dans les 5 minutes un fois enfermé dans une salle de confinement.",
+        "desc": "Une fois enfermé dans une salle verrouillée avec un accès restreint considérée comme un confinement, vous devez vous reconfiner dans un délai de 5 minutes via la commande “.contain”. Si la porte s'ouvre pendant ce délai, le compte à rebours des 5 minutes repart de zéro. Plusieurs SCP peuvent être reconfinés dans une même salle de confinement."
+        },
+        {
+        "id": "zone_limit_hostile",
+        "title": "Il est interdit d’avoir plus de un SCP hostile dans une même zone, sauf en Heavy où un maximum de deux SCP hostile est autorisé.",
+        "desc": "Un SCP conscient compte comme hostile s'il attaque une personne sans forcément être déclaré hostile, il n'a alors pas le droit d'attaquer dans des zones où se trouve déjà assez de SCP hostiles. La surface doit comporter un maximum de un SCP hostile tant que la Warhead n'a pas explosé."
+        },
+        {
+        "id": "no_double_scp",
+        "title": "En tant que SCP, il est interdit de rester proche d'un autre SCP, qu'il soit hostile ou non.",
+        "desc": "Si deux SCP se croisent l'un des deux doit obligatoirement ignorer les joueurs autour de lui.Deux SCP hostiles n'ont pas le droit d'attaquer ensemble ou côte à côte, même s'ils se trouvent en surface après l'explosion de la Warhead"
+        },
+        {
+        "id": "no_meta_information",
+        "title": "Toute communication d'informations stratégiques faites dans le vocal SCP pour partager des informations HRP ne doivent être uniquement communiqués à l'IA ou SCP-079, qui eux disposent de toute connaissance du site en RP.",
+        "desc": "Exemple - Vous pouvez dire à SCP-079 où vous êtes confinés, mais vous ne pouvez pas le communiqué à d'autres SCP comme SCP-3114, qui eux doivent uniquement recevoir l'information en RP, via le chat de proximité par d'autres joueurs ou par l'IA."
+        },
+        {
+        "id": "clear_chat_room",
+        "title": "Le chat SCP doit servir à partager des informations importantes nécessaires au bon déroulement du jeu, afin d'assurer le respect du règlement.",
+        "desc": "Exemple - Vous utiliser le chat SCP en tant que l'IA ou SCP-079 afin de coordonner et répartir les autres SCP dans les zones afin d'assurer que la limite de SCP hostiles par zone soit respectée."
+        },
+        {
+        "id": "signal_zone_change",
+        "title": "Vous devez communiquer vos changements de zone et votre hostilité",
+        "desc": "En tant que SCP vous devez signaler quand est ce que vous changer de zone, ou signaler quand vous devenez hostiles afin d'éviter tout malentendu etc."
+        },
+        {
+        "id": "no_green_button_pressing",
+        "title": "Vous ne pouvez pas appuyer sur le bouton vert pour s'échapper",
+        "desc": "Les SCP n'ont pas le droit d'appuyer sur les boutons verts d'Emergency Release pour s'échapper des confinements."
+        },
+        {
+        "id": "no_powergaming_scp",
+        "title": "Pas de Powergaming en tant que SCP",
+        "desc": "En tant que SCP vous n'avez pas le droit de sauter du haut des escaliers, ou de la plateforme en surface Gate A. Vous n'avez pas non plus le droit de sauter dans les ascenseurs de la Warhead ou de la salle des serveurs."
+        },
+        {
+        "id": "no_powergaming_scp",
+        "title": "Ne pas ouvrir les portes verrouillées que les humains ne peuvent pas ouvrir",
+        "desc": "Les SCP n'ont pas le droit d'ouvrir les portes locks/bloquées par C.A.S.S.I.E/SCP-079 que les humains ne peuvent pas ouvrir."
+        }
+    ],
+    "scp_inconscious": [
+      {
+        "id": "no_survival_instinct",
+        "title": "Les SCP inconscients n'ont pas d'instinct de survie et ne peuvent pas faire de stratégies complexes",
+        "desc": "ainsi, ils ne sont pas assez intelligents pour camper, faire des embuscades, fermer les portes, esquiver les tirs, ou esquiver les reconfinements."
+      },
+       {
+        "id": "no_stupid_death",
+        "title": "Vous avez le droit de ne pas sauter dans le vide pour tuer des cibles",
+        "desc": "et d'attendre les décharges de tesla en tant que SCP inconscient, mais vous n'avez pas le droit d'esquiver les décharges de tesla forcés par l'IA."
+    },
+    {
+        "id": "no_consequences",
+        "title": "Si vous êtes un SCP hostile, vous devez attaquer vos cibles sans vous soucier des conséquences,",
+        "desc": "sauf pour les SCP-049-2 qui disposent de comportements exceptionnels quand ils sont accompagnés de SCP-049." 
+    },
+    {
+        "id": "no_warhead_escape",
+        "title": "Les SCP inconscients n'ont pas le droit de sortir de leur propre gré pour éviter l'explosion de la Warhead.",
+        "desc": "" 
+    },
+    {
+        "id": "lift_rules",
+        "title": "Les SCP inconscients peuvent utiliser TOUS les ascenseurs présents en Heavy et Light pour changer de zone ou revenir dans les couloirs de la Heavy,",
+        "desc": "notamment s'ils sont bloqué dans la zone confinement de 049 ou la Warhead. Ils ont également le droit d'utiliser les ascenseurs en surface pour retourner à l'intérieur du site s'ils sont coincés à l'extérieur et qu'ils ne se font pas extraire ou forcé dans l'ascenseur par d'autres joueurs. Cependant, ils ne sont pas autorisés à prendre les ascenseurs pour aller volontairement dans la zone de confinement de 049 ou dans la Warhead, de prendre les ascenseurs en entrance de la Gate-A ou Gate-B pour monter en surface, ou prendre les ascenseurs dans le but de poursuivre une cible" 
+    }
+
+    ],
+    "staff_non_military": [
+      {
+        "id": "no_weapons",
+        "title": "Pas d'armes",
+        "desc": "Le personnel non militaire ne peut pas porter ou utiliser d'armes."
+      }
+    ]
+  },
+  "roles": {
+    "scp-049-2": {
+      "name": "SCP-049-2",
+      "categories": ["common", "scp", "scp_inconscious"]
+    },
+    "scp-3114": {
+      "name": "SCP-3114",
+      "rules": ["no_freekill", "scp_obey_orders", "scp_talk"]
+    },
+    "scientist": {
+      "name": "Scientifique",
+      "rules": ["no_freekill", "no_weapons"]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+/* === Global === */
+body { 
+  font-family: system-ui, Arial, sans-serif; 
+  background:#0f1115; 
+  color:#eaeaf0; 
+  margin:0; 
+  padding:16px; 
+}
+
+h1 { 
+  font-size: 1.3rem; 
+}
+
+select { 
+  width:100%; 
+  padding:10px; 
+  font-size:1rem; 
+  margin:12px 0; 
+  border-radius:8px; 
+  background:#1b1b25;
+  color:#eaeaf0;
+  border:none;
+}
+
+/* === Collapsible / Category === */
+.collapsible {
+  background-color: #1b1b25;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+/* Content à l’intérieur des collapsibles */
+.content {
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+/* === Détails / summary alternative collapsible === */
+details {
+  background:#1a1d24; 
+  border-radius:10px; 
+  padding:8px 12px; 
+  margin-bottom:10px; 
+}
+
+summary { 
+  cursor:pointer; 
+  font-weight:600; 
+}
+
+/* === Liste et règles === */
+.rule {
+  background-color: #2a2a3a;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+ul { 
+  padding-left:18px; 
+}
+
+.tag { 
+  font-size: 0.75rem; 
+  opacity: 0.7; 
+  margin-left: 6px; 
+}
