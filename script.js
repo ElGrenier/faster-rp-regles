@@ -4,7 +4,23 @@ fetch("rules.json")
   .then(res => res.json())
   .then(data => {
     rulesData = data;
+    populateRoles(); // 🔥 on génère le select ici
   });
+
+function populateRoles() {
+  const select = document.getElementById("roleSelect");
+
+  // reset au cas où
+  select.innerHTML = `<option value="">-- Choisir un rôle --</option>`;
+
+  Object.entries(rulesData.roles).forEach(([roleId, roleData]) => {
+    const option = document.createElement("option");
+    option.value = roleId;            // valeur technique
+    option.textContent = roleData.name; // nom lisible
+    select.appendChild(option);
+  });
+}
+
 
 document.getElementById("roleSelect").addEventListener("change", function() {
   const roleId = this.value;
@@ -23,15 +39,18 @@ document.getElementById("roleSelect").addEventListener("change", function() {
     const section = document.createElement("div");
     section.className = "category";
 
+
+    const displayName = catRules[0]?.name || catName; // 🔥 prend le name si existe
+
     const header = document.createElement("button");
-    header.textContent = catName;
+    header.textContent = displayName; //ajoute le nom de la catégorie (catName)
     header.className = "collapsible";
     section.appendChild(header);
 
     const content = document.createElement("div");
     content.className = "content";
 
-    catRules.forEach(rule => {
+    catRules.slice(1).forEach(rule => {
       const div = document.createElement("div");
       div.className = "rule";
       div.innerHTML = `<strong>${rule.title}</strong><br>${rule.desc}`;

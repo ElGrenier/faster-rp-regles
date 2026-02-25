@@ -1,6 +1,7 @@
 {
   "categories": {
-      "common": [
+    "common": [
+    {"name":"Règles générales"},
     {
       "id": "no_freekill",
       "title": "Interdiction de Freekill",
@@ -106,8 +107,9 @@
       "title": "Il est interdit de tuer quelqu'un qui vient de réapparaître suite à une extraction",
       "desc": "Les réapparitions suite à une extraction sont considérées comme un respawn et ne doivent en aucun cas faire l’objet de spawnkill. "
     }
-  ],
+    ],
     "human":[
+        {"name":"Règles spécifiques aux humains"},
         {
         "id": "no_spawnkill",
         "title": "Il est interdit de tuer les respawns",
@@ -225,8 +227,8 @@
         }
 
     ],
-    
     "scp": [
+       {"name":"Règles spécifiques aux SCP"},
        {
         "id": "no_scp_wait_respawn",
         "title": "Il est interdit d'attendre les respawns",
@@ -279,6 +281,7 @@
         }
     ],
     "scp_inconscious": [
+      {"name":"Règles spécifiques aux SCP inconscients"},
       {
         "id": "no_survival_instinct",
         "title": "Les SCP inconscients n'ont pas d'instinct de survie et ne peuvent pas faire de stratégies complexes",
@@ -306,26 +309,280 @@
     }
 
     ],
-    "staff_non_military": [
+    "scp_049-2": [
+      {"name":"Règles spécifiques à SCP-049-2"},
       {
-        "id": "no_weapons",
-        "title": "Pas d'armes",
-        "desc": "Le personnel non militaire ne peut pas porter ou utiliser d'armes."
+        "id": "agression_follow_049",
+        "title": "Si 049 vous abandonne ou que vous êtes séparé de lui, vous  devenez agressif envers toutes formes de vie croisant votre route.",
+        "desc": "Si vous vous retrouvez séparé de 049, vous devez attaquer tout ce que vous voyez à vu, en vous assurant de ne pas attaquer avec d'autres SCP, et vous cessez vos hostilités une fois réuni avec SCP-049. Vous devez également vous assurez de le suivre lorsqu'il change de zone. Si 049 s'extrait, vous devez vous extraire aussi, peut importe ses ordres."
+      },
+      {
+        "id": "obey_049",
+        "title": "Vous devez suivre les ordres de SCP-049 et ne pas agir de votre propre chef.",
+        "desc": "Cela veut dire que vous ne devez pas vous déplacer à un endroit, sans l'ordre de 049, vous ne devez pas attaquer sans l'ordre de 049, même si vous vous faites tirer dessus ou si 049 se fait tirer dessus."
+      },
+      {
+        "id": "follow_049",
+        "title": "Si vous devez suivre SCP-049, vous ne devez en aucun cas vous éloignez pour quelconque raison.",
+        "desc": ""      
+      },
+      {
+        "id": "no_suicide",
+        "title": "Vous n’avez pas le droit de vous suicider en allant dans une tesla ou en sautant dans le vide.",
+        "desc": ""      
+      },
+      {
+        "id": "no_trap",
+        "title": "Vous ne savez pas vous cacher ou tendre des pièges sans les instructions de SCP-049.",
+        "desc": ""      
+      }
+    ],
+    "non_military": [
+      {"name":"Règles spécifiques aux Personnel non militaire"},
+      {
+        "id": "hierarchy",
+        "title": "La hiérarchie pour le personnel du site est la suivante :",      
+        "desc": "Classe-D < Concierge < Scientifique < Infirmier < Garde < Garde superviseur/Spécialiste de confinement < Directeur"
+      },
+      {
+        "id": "no_micro_hid",
+        "title": "En tant que personnel non-militaire vous ne savez pas utiliser la Micro HID",      
+        "desc": ""
+      }
+    ],
+     "scientist": [
+      {"name":"Règles spécifiques aux Scientifique"},
+      {
+        "id": "make_experience",
+        "title": "En tant que Scientifique, vous devez réaliser des expériences sur des entités SCP, qui doivent être approuvées par le Directeur. En cas de brèche, vous devez vous extraire avec l’aide d’un personnel militaire.",
+        "desc": ""
+      },
+      {
+        "id": "know_site",
+        "title": "Vous connaissez parfaitement le site, ainsi que ses alliés et ennemis. ",
+        "desc": ""
+      },
+      {
+        "id": "not_security",
+        "title": "Vous n'êtes pas un personnel de sécurité, vous ne gérez pas les Classe-D, ni vous les menottés.",
+        "desc": "Vous ne devez en aucun cas prendre d’armes ou de gilets pare balles tant qu'il n'y a pas de menaces ou de dangers directs pour votre vie. Vous ne chercher pas à combattre les personnels hostiles, sauf en cas de légitime défense, vous devez les ignorer et les évitez. "      
+      }
+    ],
+    "scientist_class":[
+      {"name":"Règles spécifiques au Scientifiques + Directeur"},
+      {
+        "id": "clear_security_rules",
+        "title": "Lors d'une expérience, il faut donner des consignes de sécurité claires.",
+        "desc": "Il est interdit de causer la mort du personnel de Classe-D sans raison valable, donc si la mort d'une Classe-D est nécessaire, elle doit être justifiée ou doit contribuer à l'avancement d'une expérience. "      
+      },
+      {
+        "id": "no_left_alone",
+        "title": "En fin d'expérience, vous ne devez pas laisser les Classes-D enfermées dans un confinement de SCP.",
+        "desc": "Vous devez les faire sortir si cela ne présente aucun risque pour la sécurité, et ne pas les laisser enfermées pour être tuées."      
+      },
+      {
+        "id": "security_guard",
+        "title": "Vous êtes chargé d'éviter tout déconfinement de SCP à l'aide des gardes.",
+        "desc": "Ainsi, il est strictement interdit de déconfiner intentionnellement un SCP, même dans le cadre d'une expérience."      
+      }
+    ],
+    "class-D": [
+      {"name":"Règles spécifiques aux Classe-D"},
+      {
+        "id": "flee",
+        "title": "Votre objectif est de vous échapper par tous les moyens possibles, tout en respectant le règlement dans son intégralité.",
+        "desc": "Dans le contexte DarkRP, vous êtes un personnel participant à des expériences sous contrat de la Fondation. Vous devez trouver une sortie et cherchez à vous évader du site coûte que coûte ! (FearRP)."
+      },
+      {
+        "id": "no_site_knowledge",
+        "title": "Vous n'avez aucune connaissance en lien avec la Fondation :",
+        "desc": "Vous ne connaissez ni le personnel, ni l'IA, ni les SCP,  ni les Chaos, ni leurs fonctionnements etc."
+      },
+      {
+        "id": "no_revenge",
+        "title": "Vous ne cherchez pas à vous venger ou à combattre la Fondation, ou les Groupes d'intérêt.",
+        "desc": "De ce fait, vous ne restez pas dans le site à errer sans but, pour tuer tout le monde, ou pour assister des menaces pour la Fondation (SCP ou Chaos)."
+      },
+      {
+        "id": "crime",
+        "title": "Les Classe-D ont commis des crimes, mais ils savent qu'ils vont participer à des expériences parce qu'ils ont signé un contrat pour être pardonner de leur crime.",
+        "desc": "Ils ne se rappellent plus de comment ils ont atterrit ici et tout ce qui c'est passé après avoir signé le contact."
+      },
+      {
+        "id": "sommation",
+        "title": "Vous savez ce que sont les sommations, et vous devez les respecter.",
+        "desc": "Tout manque de respect envers le personnel du site sera passible de mort. (FearRP)"
+      },
+      {
+        "id": "No_escape_cafeteria",
+        "title": "Vous ne devez pas vous placer devant la porte de la cafétéria pour fuir, le FearRP est obligatoire.",
+        "desc": "Cependant, si vous êtes appelés par des gardes pour aller en expérience, vous pouvez vous placer devant la porte uniquement s'ils vous y autorisent."
+      },
+      {
+        "id": "no_scp_knowledge",
+        "title": "Vous ignorez le fonctionnement des objets et entités SCP tant qu’on ne vous les a pas expliqués.",
+        "desc": "Par conséquent, vous devez craindre tous les SCP et ne pas utiliser un objet SCP inconnu sans avoir reçu d’instructions, sauf en cas de contrainte (par exemple lors d’une expérience)."
+      }
+    ],
+    "concierge": [
+      {"name":"Règles spécifiques au Concierge"},
+      {
+        "id": "objective",
+        "title": "Vous êtes concierge et votre mission principale est de veiller à la propreté et au bon ordre du site.",
+        "desc": ""      
+      },
+      {
+        "id": "no_site_knowledge",
+        "title": "Vous n'avez aucune connaissance en lien avec la Fondation :",
+        "desc": "Vous ne connaissez ni les SCP, ni les F.I.M, ni les Chaos, ni leurs fonctionnements etc. En revanche, vous connaissez le personnel du site et l'IA, et vous respectez la hiérarchie."
+      },
+      {
+        "id": "no_weapon_use",
+        "title": "Vous n’avez aucune maîtrise des armes et ne pouvez utiliser ni armes à feu ni grenades.",
+        "desc": "Vous ne devez en aucun cas prendre d’armes ou de gilets pare balles ; tout armement trouvé doit être immédiatement signalé afin d’éviter tout risque d’abattage."
+      },
+      {
+        "id": "foundation_personnel",
+        "title": "Vous n'êtes pas une Classe-D, mais un employé de la Fondation.",
+        "desc": "Vous ne cherchez ni à nuire à la Fondation, ni à vous évader, sauf si on vous oblige à vous extraire ou que votre vie est en danger (FearRP), vous suivez les ordres du personnel habilité."
+      },
+      {
+        "id": "no_life_risk",
+        "title": "Vous ne devez pas risquer votre vie pour la Fondation, vous n’êtes pas censé activement combattre des personnels hostiles de la Fondation ou de tenter de reconfiner des SCP tant que vous n'êtes pas menacé.",
+        "desc": ""
+      },
+      {
+        "id": "no_participating_in_experience",
+        "title": "En tant que concierge, vous n’êtes pas autorisé à participer aux expériences, ni à y assister, ni à interagir directement avec les SCP.",
+        "desc": ""
+      },
+      {
+        "id": "use_broom",
+        "title": "Vous pouvez utiliser votre balai, et nettoyer des corps à l'aide de la commande ''.clean''.",
+        "desc": "Il est interdit de spam la commande ''.clean''."
+      },
+      {
+        "id": "no_scp_knowledge",
+        "title": "Vous ignorez le fonctionnement des objets et entités SCP tant qu’on ne vous les a pas expliqués.",
+        "desc": "Par conséquent, vous devez craindre tous les SCP et ne pas utiliser un objet SCP inconnu sans avoir reçu d’instructions."
+      }
+    ],
+    "director": [
+      {"name":"Règles spécifiques au Directeur"},
+      {
+        "id": "objective",
+        "title": "Vous êtes le Directeur du site. Votre rôle est de gérer tous les membres du site. ",
+        "desc": "Vous êtes principalement chargé de l’organisation et la validation des expériences. "      
+      },
+      {
+        "id": "organize_experiences",
+        "title": "Vous êtes chargé de l’organisation des expériences et devez valider les propositions des Scientifiques.",
+        "desc": ""
+      },
+      {
+        "id": "do_experience",
+        "title": "Vous pouvez réaliser des expériences, tout comme les Scientifiques.",
+        "desc": "" 
+      },
+      {
+        "id": "know_site",
+        "title": "Vous connaissez parfaitement le site ainsi que ses alliés et ennemis.",
+        "desc": ""
+      },
+      {
+        "id": "can_handcuff",
+        "title": "Vous avez le droit de menotter les Classes-D , et vous pouvez leur mettre des sommations s'il n'y a pas de personnel de sécurité présent.",
+        "desc": ""
+      },
+      {
+        "id": "no_defense",
+        "title": "N'étant pas militaire, vous ne cherchez pas à combattre les personnels hostiles, sauf en cas de légitime défense.",
+        "desc": ""
+      }
+    ],
+    "cassie": [
+      {"name":"Règles spécifiques à C.A.S.S.I.E"},
+      {
+        "id": "objective",
+        "title": "Vous êtes une IA créée par la Fondation dans le but unique d'assister le personnel dans les confinements, la sécurité, la surveillance et toutes autres tâches.",
+        "desc": "Vous avez la possibilité d'aveugler des personnes dans une salle, ou de les tuer via un gaz de décontamination."      
+      },
+      {
+        "id": "no_foundation_harm",
+        "title": "Il est interdit de donner des informations aux SCP conscients, aux Chaos et aux Classes-D dans le but de nuire à la Fondation.",
+        "desc": ""
+      },
+      {
+        "id": "no_decontainment",
+        "title": "Il vous est strictement interdit de déconfiner des SCP, quelle que soit la situation.",
+        "desc": "Vous devez autant que possible, les garder dans un confinement. Vous pouvez toutefois utiliser une Tesla, ou du gaz de décontamination sur des SCP en brèche pour les blesser, qu'ils soient hostiles ou non." 
+      },
+      {
+        "id": "obey_foundation",
+        "title": "En tant qu'IA, vous devez obéir aux membres de la Fondation et les assister dans leurs missions.",
+        "desc": ""
+      }
+    ],
+    "scp_079":[
+      {"name":"Règles spécifiques à SCP 079 (C.A.S.S.I.E Hacké)"},
+      {
+        "id": "objective",
+        "title": "Vous êtes SCP-079, une intelligence artificielle consciente, ayant les mêmes capacités de C.A.S.S.I.E.",
+        "desc": "Vous pouvez interagir avec les systèmes électronique du site (portes, lumières, caméras, haut-parleurs etc). Vous pouvez agir pour ou contre la Fondation en manipulant les SCP ou les personnels. "      
+      }
+    ],
+    "ai_rules":[
+      {"name":"Règles spécifiques à SCP 079 et C.A.S.S.I.E"},
+     {
+        "id": "robotic_vocabulary",
+        "title": "Vous devez utiliser un vocabulaire robotique, c’est-à-dire parler comme un robot, sans insulter ni utiliser de mots trop complexes pour une IA.",
+        "desc": ""
+      },
+      {
+        "id": "no_scp_metagaming",
+        "title": "Toute discussion RP avec un SCP doit se faire dans le chat de proximité, et non dans le chat vocal des SCP. (Donner des informations stratégiques via le chat SCP sera considéré comme du Métagaming).",
+        "desc": ""
+      },
+      {
+        "id": "ping",
+        "title": "Il est interdit d'utiliser la capacité ''ping''. (Métagaming)",
+        "desc": ""
+      },
+      {
+        "id": "no_usebug_gaz",
+        "title": "Il est interdit de gazer le confinement de SCP-079 pour éviter tout bug qui bloque les portes définitivement,",
+        "desc": "et de gazer ou flasher l'extérieur, car C.A.S.S.I.E et SCP-079 ne sont pas supposé pouvoir utiliser ces habilités en surface, mais peuvent le faire dû à un bug de plugins."
       }
     ]
   },
   "roles": {
-    "scp-049-2": {
-      "name": "SCP-049-2",
-      "categories": ["common", "scp", "scp_inconscious"]
+    "class-D": {
+      "name": "Classe-D",
+      "categories": ["common","human","non_military","class-D"]
     },
-    "scp-3114": {
-      "name": "SCP-3114",
-      "rules": ["no_freekill", "scp_obey_orders", "scp_talk"]
+    "concierge": {
+      "name": "Concierge",
+      "categories": ["common","human","non_military","concierge"]
     },
     "scientist": {
       "name": "Scientifique",
-      "rules": ["no_freekill", "no_weapons"]
+      "categories": ["common","human","non_military","scientist"]
+    },
+    "director": {
+      "name": "Directeur",
+      "categories": ["common","human","non_military","scientist_class","director"]
+    },
+    "cassie-079": {
+      "name": "Cassie/079",
+      "categories": ["common","scp","cassie","scp_079","ai_rules"]
+    },
+    "scp-3114": {
+      "name": "SCP-3114",
+      "categories": ["common", "scp", "scp_inconscious"]
+    },
+    "scp-049-2": {
+      "name": "SCP-049-2",
+      "categories": ["common", "scp", "scp_inconscious","scp_049-2"]
     }
   }
 }
